@@ -1,0 +1,47 @@
+  h2
+  {
+  font-family:"Times New Roman",Georgia,Serif;
+  }
+       h3
+  {
+  font-family:"Times New Roman",Georgia,Serif;
+  }
+      h4
+  {
+  font-family:"Times New Roman",Georgia,Serif;
+  }
+       p
+  {
+  font-family:"Times New Roman",Georgia,Serif;
+  }
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color:rgb(33, 71, 173);
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
